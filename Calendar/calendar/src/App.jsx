@@ -1,9 +1,10 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+
 import Calendar from './Calendar';
 
-const now = new Date(2023, 4, 21);
+const now = new Date(2022, 11, 12);
 
 function App() {
 

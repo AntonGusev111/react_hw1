@@ -92,7 +92,7 @@ h3 {
   height: 550px;
   width: 400px;
   background: #ccc;
-  background: url('../img/item-blue.jpg');
+  background: url('../public/images/item-blue.jpg');
   background-size: cover;
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
   z-index: 10;

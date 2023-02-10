@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import ShopItemFunc from './ShopItemFunc'
 
+
+
 const item = {
   brand: 'Tiger of Sweden',
   title: 'Leonard coat',
@@ -19,8 +21,9 @@ function App() {
     <div className="container">
     <div className="background-element">
     </div>    
-    <div className="highlight-window">      
-      <div className='highlight-overlay'> <img src="../images/item-blue.jpg" alt="item-blue.jpg"/> </div>
+    <div className="highlight-window">   
+      <div className='highlight-overlay'></div>
+      
     </div>
     <div className="window">
     <ShopItemFunc item={item} />
